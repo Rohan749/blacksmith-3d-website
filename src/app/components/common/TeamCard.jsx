@@ -1,11 +1,11 @@
 import React from 'react'
-import p1 from "@/assets/images/p1.png"
-import p2 from "@/assets/images/p2.png"
-import p3 from "@/assets/images/p3.png"
+import p1 from "../../../assets/images/p1.png"
+import p2 from "../../../assets/images/p2.png"
+import p3 from "../../../assets/images/p3.png"
 import Image from 'next/image'
 import Link from 'next/link'
-import twitter from "@/assets/images/twtiter.png"
-import linkedin from "@/assets/images/linkedin.png"
+import twitter from "../../../assets/images/twitter.png"
+import linkedin from "../../../assets/images/linkedin.png"
 
 
 const TeamCard = ({name, profile, position, link}) => {

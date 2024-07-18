@@ -26,7 +26,7 @@ export default function Home() {
       <div className="relative z-40">
         <CPUModel />
       </div>
-      <div className="relative z-20">
+      <div className="relative z-40">
         <Header />
       </div>
       <div className="relative z-30">

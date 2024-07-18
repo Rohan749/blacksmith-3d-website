@@ -1,6 +1,7 @@
 import React from 'react'
 
-import logo from "@/assets/images/blacksmith.png"
+// import logo from "../assets/images/blacksmith.png"
+import logo from "../../../assets/images/blacksmith.png"
 import Image from 'next/image'
 
 const Footer = () => {

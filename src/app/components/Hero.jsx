@@ -2,7 +2,6 @@
 
 import React, { useLayoutEffect, useRef } from 'react'
 import Spline from '@splinetool/react-spline';
-import heroimg from "@/assets/images/devops.png"
 import Image from 'next/image';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
