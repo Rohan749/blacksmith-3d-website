@@ -1,0 +1,11 @@
+Model Information:
+* title:	GAMING CPU
+* source:	https://sketchfab.com/3d-models/gaming-cpu-0c8e8fe5fc9442788a205cb52908f2b6
+* author:	DeimonIC93 (https://sketchfab.com/Deimon)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "GAMING CPU" (https://sketchfab.com/3d-models/gaming-cpu-0c8e8fe5fc9442788a205cb52908f2b6) by DeimonIC93 (https://sketchfab.com/Deimon) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
