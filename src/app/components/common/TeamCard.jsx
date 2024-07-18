@@ -8,7 +8,7 @@ import twitter from "../../../assets/images/twitter.png"
 import linkedin from "../../../assets/images/linkedin.png"
 
 
-const TeamCard = ({name, profile, position, link}) => {
+const TeamCard = ({name, profile, position, twt, linkdn}) => {
   return (
     <div className=' w-full min-h-[20rem] flex flex-col items-center gap-3 team_card'>
       <div className='w-[83vw] sm:w-[25rem] rounded-full team_image_container'>
@@ -21,11 +21,11 @@ const TeamCard = ({name, profile, position, link}) => {
         {position}
       </div>
       <div className='flex items-center gap-4 justify-center '>
-        <Link href="">
+        <Link target='_blank' href={twt}>
           <Image className='h-[2rem] w-[2rem]' src={twitter} alt='twitter'/> 
         </Link>
-        <Link href="">
-        <Image className='h-[2rem] w-[2rem]' src={linkedin} alt='twitter'/> 
+        <Link target='_blank' href={linkdn}>
+        <Image className='h-[2rem] w-[2rem]' src={linkedin} alt='linkedin'/> 
         </Link>
       </div>
     </div>

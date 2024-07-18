@@ -29,7 +29,8 @@ const teamSection = [
     position: "Co-founder and co-CTO",
     profile: p3,
     link: {
-      linkedin: "https://www.linkedin.com/in/aayushshah15"
+      linkedin: "https://www.linkedin.com/in/aayushshah15",
+      twitter: '',
     }
   },
 ]
@@ -43,7 +44,7 @@ const Teams = () => {
           {
             teamSection.map((team, index) => (
               <div key={index}>
-                <TeamCard name={team.name} position={team.position} profile={team.profile} link={team.link} />
+                <TeamCard name={team.name} position={team.position} profile={team.profile} twt={team.link.twitter} linkdn={team.link.linkedin} />
               </div>
             ))
           }
