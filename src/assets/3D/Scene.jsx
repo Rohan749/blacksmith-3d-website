@@ -13,7 +13,7 @@ import gsap from 'gsap'
 import { useThree } from '@react-three/fiber'
 
 export function Model(props) {
-  const { nodes, materials } = useGLTF('/scene.gltf')
+  const { nodes, materials } = useGLTF('./scene.gltf')
 
   let scene = useThree(state => state.scene)
   let camera = useThree(state => state.camera)
