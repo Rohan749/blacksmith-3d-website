@@ -26,25 +26,26 @@ export default function Home() {
       <div className="relative z-40">
         <CPUModel />
       </div>
-      <div className="relative z-40">
-        <Header />
-      </div>
-      <div className="relative z-30">
+      <div className="relative z-50">
+        <div className="z-50">
+
+      <Header />
+        </div>
         <Hero />
       </div>
-      <div className="relative z-30">
+      <div className="relative z-40">
         <AboutUs />
       </div>
-      <div className="relative z-50">
+      <div className="relative z-40">
         <CpuFeature1 />
       </div>
-      <div className="relative z-50">
+      <div className="relative z-40">
         <Teams />
       </div>
-      <div className="relative z-50">
+      <div className="relative z-40">
         <ContactUs />
       </div>
-      <div className="relative z-50">
+      <div className="relative z-40">
         <Footer />
       </div>
       </SmoothScroll>

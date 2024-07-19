@@ -2,7 +2,7 @@ import React from 'react'
 
 const CpuFeature1 = () => {
   return (
-    <div id="feature" className='z-50 bottom_page2 text-white px-[1rem] sm:px-[3rem] xl:px-[6rem] py-[6rem]  min-h-[100vh] bg-black'>
+    <div id="feature" className='z-40 bottom_page2 text-white px-[1rem] sm:px-[3rem] xl:px-[6rem] py-[6rem]  min-h-[100vh] bg-black'>
        <header><span>I </span>Our Key Features</header>
       <div className='flex flex-col gap-[5rem] pt-[4rem]'>
         <div className='flex flex-col lg:flex-row items-center justify-between lg:w-[70%]'>

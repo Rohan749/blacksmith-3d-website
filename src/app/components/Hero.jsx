@@ -39,17 +39,17 @@ const Hero = () => {
 
   return (
     <div ref={sectionRef} className='relative'>
-      <div className='spline_anim absolute bottom-[-45rem] left-1/2 transform -translate-x-1/2 -translate-y-0 h-[50vh] lg:h-[100vh] w-[100vw] z-50'>
+      <div className='spline_anim z-30 absolute bottom-[-45rem] left-1/2 transform -translate-x-1/2 -translate-y-0 h-[50vh] lg:h-[100vh] w-[100vw]'>
         <Spline
           scene="https://prod.spline.design/jnDvbjxYr5t-6cgS/scene.splinecode"
         />
       </div>
-      <div id="hero"  className='hero_section  text-white px-[1rem]  sm:px-[3rem] relative xl:px-[9rem] pt-[4rem] h-[89vh] min-h-[40rem] '>
+      <div id="hero"  className='hero_section dark_bg text-white px-[1rem]  sm:px-[3rem] relative xl:px-[9rem] pt-[10rem] h-[100vh] min-h-[40rem] '>
         <div className='flex flex-col items-center text-center'>
           <div className='title w-[100%] font-semibold'>
             <div className=''>
               <div className='xl:text-[90px] lg:text-[60px] text-[44px] text_anim opacity-0'>Supercharge your CLI with</div>
-              <div className='xl:text-[120px] lg:text-[80px] text-[56px] text_anim opacity-0'>
+              <div className='xl:text-[120px] lg:text-[80px] text-[48px] text-center text_anim opacity-0'>
                 BLACKSMITH
               </div>
             </div>

@@ -17,10 +17,14 @@
 }
 
 body {
-  background: linear-gradient(to top right, #050505, #000000);
+  background: white;
     color: white;
     overflow-x: hidden;
     position: relative;
+}
+
+.dark_bg {
+  background: linear-gradient(to bottom,  #000000, #030303, #090909);
 }
 
 @layer utilities {
@@ -97,9 +101,9 @@ a:hover {
   transition-duration: 0.3s;
 }
 
-.bottom_page {
+/* .bottom_page {
   background-color: white;
-}
+} */
 
 .bottom_page2 {
   background: #030303,
@@ -195,3 +199,4 @@ subheader {
   line-height: 0.8;
   padding-top: 3rem;
 }
+

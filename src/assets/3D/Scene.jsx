@@ -39,8 +39,6 @@ export function Model(props) {
       .to(scene.rotation, {y: 0.8}, "key1")
       .to(scene.position, {z:-2.5,x:-4}, "key1")
       .to(camera.position, {x:8, z:0}, "key1")
-
-
   }, [])
 
  
